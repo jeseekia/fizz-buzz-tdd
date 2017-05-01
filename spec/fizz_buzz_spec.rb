@@ -44,4 +44,13 @@ describe FizzBuzz do
   it "returns 'Buzz' for input of 10" do
     expect(FizzBuzz.convert(10)).to eq('Buzz')
   end
+
+  it "returns 11 for input of 11" do
+    expect(FizzBuzz.convert(11)).to eq(11)
+  end
+
+  it "returns 'FizzBuzz' for input of 15" do
+    expect(FizzBuzz.convert(15)).to eq('FizzBuzz')
+  end
+
 end
