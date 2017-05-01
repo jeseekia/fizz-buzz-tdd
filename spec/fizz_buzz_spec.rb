@@ -53,4 +53,8 @@ describe FizzBuzz do
     expect(FizzBuzz.convert(15)).to eq('FizzBuzz')
   end
 
+  it "returns 'FizzBuzz' for input of 30" do
+    expect(FizzBuzz.convert(30)).to eq('FizzBuzz')
+  end
+
 end
