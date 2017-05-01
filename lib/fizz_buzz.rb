@@ -1,8 +1,13 @@
 class FizzBuzz
   def self.convert(input_numbers)
-    return 'FizzBuzz' if (input_numbers%15) == 0
-    return 'Buzz' if (input_numbers%5) == 0
-    return 'Fizz' if (input_numbers%3) == 0
-    input_numbers
+    if (input_numbers%15) == 0
+      'FizzBuzz'
+    elsif (input_numbers%5) == 0
+      'Buzz'
+    elsif (input_numbers%3) == 0
+      'Fizz'
+    else
+      input_numbers
+    end
   end
 end
